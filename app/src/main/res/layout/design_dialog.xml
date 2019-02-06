@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@android:color/holo_blue_dark">
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/close"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="National Institute of Technology"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/sch"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attendance Reports"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/white"
+            android:padding="10dp"
+            android:background="@drawable/design_bg"/>
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Attendance"
+            android:padding="5dp"
+            android:drawablePadding="20dp"
+            android:textAlignment="textStart"
+            android:drawableLeft="@drawable/student"
+            android:background="@android:color/white"
+            android:layout_gravity="start" />
+       <!-- <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>-->
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:text="Employee Attendance"
+            android:padding="5dp"
+            android:drawablePadding="20dp"
+            android:drawableLeft="@drawable/emp"
+            android:textAlignment="textStart"
+            android:layout_gravity="start" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
